@@ -1,6 +1,6 @@
 .container {
-    margin: 0 auto;
-    width: 20%;
+  margin: 0 auto;
+  width: 20%;
 }
 
 .top {
@@ -19,49 +19,49 @@
   display: flex;
 }
 
-.text{
-    font-size: 12px;
+.text {
+  font-size: 12px;
 }
 
 .content-right {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .left-elem {
-    flex-basis: 40%;
-    align-self: flex-end;
+  flex-basis: 40%;
+  align-self: flex-end;
 }
 
 .right-elem {
-    flex-basis: 30%;
-    text-align: right;
-    align-self: flex-end;
+  flex-basis: 30%;
+  text-align: right;
+  align-self: flex-end;
 }
 
-.row1{
-    flex-basis: 35%;
-    align-self: flex-end;
+.row1 {
+  flex-basis: 35%;
+  align-self: flex-end;
 }
 
-.row2{
-    flex-basis: 25%;
+.row2 {
+  flex-basis: 25%;
 }
-.row3{
-    flex-basis: 20% ;
-}
-
-.row4{
-    flex-basis: 20%;
+.row3 {
+  flex-basis: 20%;
 }
 
-#last-row{
-    text-align: center;
+.row4 {
+  flex-basis: 20%;
 }
 
-.indent{
-    text-indent: 15px;
-    font-size: 14px;
+#last-row {
+  text-align: center;
+}
+
+.indent {
+  text-indent: 15px;
+  font-size: 14px;
 }
 
 .mainBorder {
@@ -89,4 +89,13 @@ p {
 
 .border {
   border-bottom: 2px black solid;
+}
+
+.none {
+  border-bottom: none;
+}
+
+hr {
+  margin: 0;
+  margin-left: 15px;
 }
