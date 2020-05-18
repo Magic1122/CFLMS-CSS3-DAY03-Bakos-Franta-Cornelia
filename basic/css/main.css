@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%; /* Common practice when working with rem, it makes 1rem exactly 10px, so easier to calculate with it */
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .header {
+      margin: 0 auto;
+      width: 100rem;
+      height: 30rem;
+      background-color: aqua;
+  }
+
+  .list-elements {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .list-elem {
+      font-size: 2.4rem;
+      list-style: none;
+      margin: 10rem 5rem;
+      transition: transform 500ms;
+  }
+
+  .list-elem:hover {
+      transform: rotate(360deg);
+  }
+
+
+  .list-elem a {
+      text-decoration: none;
+      font-weight: 600;
+      transition: font-size 500ms;
+  }
+  
+
+/*   .list-elem:hover {
+    transform: rotate(-360deg);
+  } */
+
+  .list-elem a:hover {
+      font-size: 3.6rem;
+  }
