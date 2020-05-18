@@ -1,50 +1,63 @@
-.top{
+.container {
+    margin: 0 auto;
+    width: 20%;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+}
+.top h1 {
+  margin-bottom: 0;
+}
+.top p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.content {
+  display: flex;
+}
+
+.content-right {
     display: flex;
-    flex-direction: column;
-
-}
-.top h1{
-    margin-bottom: 0;
-}
-.top p{
-    margin-bottom: 0;
-    margin-top: 0;
+    justify-content: flex-end;
 }
 
-.content{
-    display: flex;
-    flex-direction: row;
-    align-content: flex-end;
+.left-elem {
+    flex-basis: 40%;
+    align-self: flex-end;
 }
 
-.left-elem{
-    display: flex;
-   align-self: flex-start;
+.right-elem {
+    flex-basis: 30%;
+    text-align: right;
+    align-self: flex-end;
 }
 
-.mainBorder{
-    border: 1px black solid;
+.mainBorder {
+  border: 1px black solid;
 }
-.thickBorder{
-   border-bottom: 9px black solid;
-}
-
-.thickBorder p{
-    margin-bottom: 0.3em;
+.thickBorder {
+  border-bottom: 9px black solid;
 }
 
-.mediumBorder{
-    border-bottom: 6px black solid;
-
-}
-.thinBorder h5,p {
-    margin-bottom: 0.2px;
+.thickBorder p {
+  margin-bottom: 0.3em;
 }
 
-.thinBorder{
-    border-bottom: 1px black solid;
+.mediumBorder {
+  border-bottom: 6px black solid;
+}
+.thinBorder h5,
+p {
+  margin-bottom: 0.2px;
 }
 
-.border{
-    border-bottom: 2px black solid;
+.thinBorder {
+  border-bottom: 1px black solid;
+}
+
+.border {
+  border-bottom: 2px black solid;
 }
