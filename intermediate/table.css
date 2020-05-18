@@ -70,6 +70,7 @@
 
 .mainBorder {
   border: 1px black solid;
+  padding: 10px;
 }
 .thickBorder {
   border-bottom: 9px black solid;
