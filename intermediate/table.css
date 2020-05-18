@@ -1,0 +1,39 @@
+.top{
+    display: flex;
+    flex-direction: column;
+
+}
+.top h1{
+    margin-bottom: 0;
+}
+.top p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+.left-elem{
+    display: flex;
+   align-self: flex-start;
+}
+
+.thickBorder{
+   border-bottom: 9px black solid;
+}
+
+.thickBorder p{
+    margin-bottom: 0.3em;
+}
+
+.mediumBorder{
+    border-bottom: 3px black solid;
+
+}
+mediumBorder h5{
+    margin-bottom: 0;
+}
