@@ -22,6 +22,9 @@
    align-self: flex-start;
 }
 
+.mainBorder{
+    border: 1px black solid;
+}
 .thickBorder{
    border-bottom: 9px black solid;
 }
@@ -31,9 +34,17 @@
 }
 
 .mediumBorder{
-    border-bottom: 3px black solid;
+    border-bottom: 6px black solid;
 
 }
-mediumBorder h5{
-    margin-bottom: 0;
+.thinBorder h5,p {
+    margin-bottom: 0.2px;
+}
+
+.thinBorder{
+    border-bottom: 1px black solid;
+}
+
+.border{
+    border-bottom: 2px black solid;
 }
